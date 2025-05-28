@@ -60,7 +60,7 @@ Follow these steps to set up and run the project:
    I tested two alternative methods to insert sample book data into the `books` collection:
 
    - **Using mongosh to Run JavaScript Scripts:**
-     - Execute the `insert_books.js` script with `mongosh` by running:
+     - Execute the `inseert_books.js` script with `mongosh` by running:
        ```bash
        mongosh < insert_books.js
        ```
@@ -73,7 +73,7 @@ Follow these steps to set up and run the project:
        ```
      - Run the script using Node.js:
        ```bash
-       node inseert_books.js
+       node insert_books.js
        ```
      - **Note:**  
        Use the Node.js method if your script is designed to run as a standalone Node application (i.e., using `require('mongodb')` to connect to the MongoDB server).
