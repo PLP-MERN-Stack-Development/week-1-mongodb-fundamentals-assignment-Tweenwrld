@@ -57,7 +57,7 @@ Follow these steps to set up and run the project:
 
 4. **Populate the Database:**
 
-   I used two alternative methods to insert sample book data into the `books` collection:
+   I tested two alternative methods to insert sample book data into the `books` collection:
 
    - **Using mongosh to Run JavaScript Scripts:**
      - Execute the `insert_books.js` script with `mongosh` by running:
